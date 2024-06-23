@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.progress-container {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.progress-bar {
+  height: 30px;
+  width: 0;
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+}
+
+.progress-text {
+  font-size: 14px;
+}
